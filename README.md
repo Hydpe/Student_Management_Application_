@@ -24,7 +24,7 @@ Performs all student-related operations: Add, List, Update, Delete.
 Accepts requests only from the Auth Service.
 Validates JWT before executing actions.
 
-4. API Gateway (Optional)
+4. API Gateway
 
 Routes incoming requests to the correct service.
 Can add an additional layer of security.
