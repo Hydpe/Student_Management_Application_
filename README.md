@@ -43,9 +43,9 @@ Auth Service verifies credentials → returns JWT token.
 React stores the token for secure operations.
 
 For any student operations:
-React → Auth Service (with JWT)
+React -> Auth Service (with JWT)
 Auth Service verifies token
-Auth Service → Student Service via OpenFeign
+Auth Service -> Student Service via OpenFeign
 Student Service performs CRUD
 Auth Service sends response back to frontend
 
